@@ -6,26 +6,27 @@ import { notes } from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: '/image/favicon.ico',
   // your git repo url
-  docsRepo: '',
+  docsRepo: 'https://github.com/ShaddockWong',
   docsDir: 'docs',
 
   appearance: true,
 
   profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
+    avatar: '/image/avatar.jpg',
     name: '一个柚子',
-    description: '一个柚子的博客',
-    // circle: true,
-    // location: '',
+    description: '打肿脸充柚子',
+    location: '西安-长安',
     // organization: '',
+    // circle: true,
+    layout: 'left', // 个人信息在左侧还是右侧，'left' | 'right'
   },
 
   navbar,
   notes,
   social: [
-    { icon: 'github', link: '/' },
+    { icon: 'github', link: 'https://github.com/ShaddockWong' },
   ],
 
 })

@@ -3,20 +3,25 @@ pageLayout: home
 externalLinkIcon: false
 config:
   -
-    type: hero
+    type: banner
     full: true
-    background: tint-plate
+    banner: /image/cover.jpg
+    bannerMask:
+      light: 0.1
+      dark: 0.3
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: 一个柚子
+      tagline: Full Stand Developer
+      text: 我们感到不满的原因，就在于我们试图不断地提高自己的要求。
       actions:
         -
-          theme: brand
-          text: 博客
+          text: 我的博客
           link: /blog/
+          theme: brand
         -
+          text: Github
+          link: https://github.com/ShaddockWong
           theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+  -
+    type: blog
 ---
