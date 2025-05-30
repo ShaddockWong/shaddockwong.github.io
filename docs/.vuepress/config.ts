@@ -7,7 +7,7 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: '一个柚子',
   description: '一个柚子的博客',
-
+  head: [['link', { rel: 'icon', href: '/image/favicon.ico' }]],
   bundler: viteBundler(),
 
   theme: plumeTheme({
@@ -20,7 +20,7 @@ export default defineUserConfig({
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
        */
       // shiki: {
-           // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
+      // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
       //   languages: ['shell', 'bash', 'typescript', 'javascript'],
       // },
 
@@ -30,11 +30,11 @@ export default defineUserConfig({
        */
       markdownEnhance: {
         demo: true,
-      //   include: true,
-      //   chart: true,
-      //   echarts: true,
-      //   mermaid: true,
-      //   flowchart: true,
+        //   include: true,
+        //   chart: true,
+        //   echarts: true,
+        //   mermaid: true,
+        //   flowchart: true,
       },
 
       /**

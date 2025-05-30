@@ -20,7 +20,7 @@ export default defineThemeConfig({
     location: '西安-长安',
     // organization: '',
     // circle: true,
-    layout: 'left', // 个人信息在左侧还是右侧，'left' | 'right'
+    layout: 'right', // 个人信息在左侧还是右侧，'left' | 'right'
   },
 
   navbar,
